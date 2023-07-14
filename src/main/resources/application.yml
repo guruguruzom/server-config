@@ -8,4 +8,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/guruguruzom/server-config/blob/master
+          uri: https://github.com/guruguruzom/server-config.git
+#privary ?? ? key ?? ? ??
+#          uri: git@github.com:cheese10yun/blog-sample.git
+#            ignoreLocalSshSettings: true
+#            private-key:
+#              -----BEGIN RSA PRIVATE KEY-----
+#              ....
+#              -----END RSA PRIVATE KEY-----
