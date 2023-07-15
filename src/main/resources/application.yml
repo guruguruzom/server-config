@@ -9,8 +9,11 @@ spring:
       server:
         git:
           uri: https://github.com/guruguruzom/server-config.git
-#privary ?? ? key ?? ? ??
-#          uri: git@github.com:cheese10yun/blog-sample.git
+#git account info
+#          username:
+#          passwolrd:
+
+#privary key regist
 #            ignoreLocalSshSettings: true
 #            private-key:
 #              -----BEGIN RSA PRIVATE KEY-----
