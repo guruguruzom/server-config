@@ -1,6 +1,7 @@
 token:
   expiration_time: 86400000 #mili-second단위 : 하루동안 유지
-  secret: user_token_changed_#1
+  secret: '{cipher}AQBHgVhtUHYEGoYOdTNrYRzt8lYJSClJDq1bLkawswGStnwpmTXYpL8r6cGmmCZpWsX5BubQ0cl762UIAq+r4w4V0VSVSkOpaIZmH4/9bM4TcnIU+v7c2bBGwIS6nyh4lnF6CfbgbvzEVj8p2TiT8RuWGSdTehXmBBwrYEYcTgJ5VlIKbRoBk/pkaNqJjNkJ2Ess5xqvcnCbET7+CG3mncJK1h4G+8qyBmt7Rg3Kt15vfG5jKK/6vFmNVuKuwINMD/1Z+K3FZOaQLVdK/xgVq9R1GJEQ2z6ENhivLzgaxnUAyXo10kIs4LUXfrTFEr3X22JJLIv7aW4vcTWaSqUhR4oAUM2ELEiy8wwQNc9P+ReBlLV+fYZvSzDdbEr/3jqmLalAH2tIvG2pHiGpodyQFfrC'
+  
 
 gateway:
   ip: 127.0.0.1
