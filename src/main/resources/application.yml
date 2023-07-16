@@ -4,11 +4,17 @@ server:
 spring:
   application:
     name: config-service
-    cloud:
-      config:
-        server:
-          git:
-            uri: https://github.com/guruguruzom/server-config.git
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/guruguruzom/server-config.git
+          default-label: master
 
 ###################location file##############################
 #  profiles:
@@ -33,3 +39,9 @@ spring:
 #              -----BEGIN RSA PRIVATE KEY-----
 #              ....
 #              -----END RSA PRIVATE KEY-----
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, busrefresh
